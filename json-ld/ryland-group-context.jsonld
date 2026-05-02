@@ -1,0 +1,59 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "ryland": "https://www.ryland-group.com/vocab/",
+    "Home": {
+      "@id": "schema:House",
+      "@type": "@id"
+    },
+    "homeId": {
+      "@id": "schema:identifier",
+      "@type": "schema:Text"
+    },
+    "name": {
+      "@id": "schema:name",
+      "@type": "schema:Text"
+    },
+    "address": {
+      "@id": "schema:address",
+      "@type": "schema:PostalAddress"
+    },
+    "price": {
+      "@id": "schema:price",
+      "@type": "schema:Number"
+    },
+    "squareFeet": {
+      "@id": "schema:floorSize",
+      "@type": "schema:QuantitativeValue"
+    },
+    "bedrooms": {
+      "@id": "schema:numberOfRooms",
+      "@type": "schema:Number"
+    },
+    "bathrooms": {
+      "@id": "ryland:bathrooms",
+      "@type": "schema:Number"
+    },
+    "community": {
+      "@id": "ryland:community",
+      "@type": "schema:Text"
+    },
+    "Mortgage": {
+      "@id": "schema:LoanOrCredit",
+      "@type": "@id"
+    },
+    "loanAmount": {
+      "@id": "schema:amount",
+      "@type": "schema:MonetaryAmount"
+    },
+    "interestRate": {
+      "@id": "schema:annualPercentageRate",
+      "@type": "schema:Number"
+    },
+    "Organization": {
+      "@id": "schema:Organization",
+      "@type": "@id"
+    }
+  }
+}

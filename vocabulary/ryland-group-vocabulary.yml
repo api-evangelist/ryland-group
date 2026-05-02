@@ -1,0 +1,69 @@
+vocabulary:
+  name: Ryland Group Vocabulary
+  description: >-
+    Vocabulary and terminology for The Ryland Group, one of the largest U.S.
+    homebuilders before its 2015 merger with Standard Pacific Corp to form
+    CalAtlantic Group, which was subsequently acquired by Lennar in 2018.
+  version: '2026-05-02'
+  terms:
+    - term: Ryland Group
+      definition: >-
+        A homebuilder and mortgage finance company that operated from 1967 to 2015,
+        building homes in 17 states. In October 2015, merged with Standard Pacific Corp
+        to form CalAtlantic Group, Inc.
+      tags:
+        - Homebuilder
+        - Real Estate
+    - term: CalAtlantic Group
+      definition: >-
+        The company formed in October 2015 from the merger of The Ryland Group and
+        Standard Pacific Corp, making it the fourth-largest U.S. homebuilder. Acquired
+        by Lennar Corporation in February 2018.
+      tags:
+        - Homebuilder
+        - Real Estate
+    - term: Lennar
+      definition: >-
+        One of the largest U.S. homebuilders, which acquired CalAtlantic Group (formerly
+        Ryland + Standard Pacific) in 2018. The successor entity to Ryland's business.
+      tags:
+        - Homebuilder
+        - Real Estate
+    - term: Homebuilder
+      definition: >-
+        A company that constructs residential homes on land it owns, selling them to
+        buyers. Ryland operated across 17 states building single-family homes in
+        planned communities.
+      tags:
+        - Real Estate
+    - term: Mortgage Finance
+      definition: >-
+        Financial services providing home purchase loans. Ryland offered consumer
+        mortgage loans through its financial services division, including fixed and
+        adjustable-rate mortgages.
+      tags:
+        - Financial Services
+        - Mortgage
+    - term: Title and Escrow
+      definition: >-
+        Closing services for real estate transactions. Ryland provided title insurance
+        and escrow management as part of its integrated homebuilding and financial
+        services model.
+      tags:
+        - Financial Services
+        - Real Estate
+    - term: Planned Community
+      definition: >-
+        A master-planned residential development with multiple home designs and
+        shared amenities. Ryland built homes within planned communities across
+        the Sun Belt, Mid-Atlantic, and Midwest regions.
+      tags:
+        - Real Estate
+    - term: Production Synergy
+      definition: >-
+        Cost savings achieved by combining purchasing, construction, and operations.
+        The Ryland-Standard Pacific merger projected $50-70 million in annual
+        production and purchasing synergies.
+      tags:
+        - Business
+        - Mergers
