@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12",
+  "$id": "https://api-evangelist.github.io/ryland-group/json-schema/ryland-mortgage-schema.json",
+  "title": "Ryland Mortgage",
+  "description": "A consumer mortgage loan originated by Ryland Mortgage Company for the purchase of a Ryland home",
+  "type": "object",
+  "properties": {
+    "loanId": {
+      "type": "string",
+      "description": "Unique loan application identifier"
+    },
+    "homeId": {
+      "type": "string",
+      "description": "Identifier of the home being financed"
+    },
+    "loanType": {
+      "type": "string",
+      "enum": ["conventional", "fha", "va", "usda"],
+      "description": "Type of mortgage loan"
+    },
+    "loanAmount": {
+      "type": "number",
+      "format": "double",
+      "description": "Total loan amount in USD"
+    },
+    "downPayment": {
+      "type": "number",
+      "format": "double",
+      "description": "Down payment amount in USD"
+    },
+    "interestRate": {
+      "type": "number",
+      "format": "double",
+      "description": "Annual interest rate as a percentage"
+    },
+    "loanTermYears": {
+      "type": "integer",
+      "enum": [10, 15, 20, 25, 30],
+      "description": "Loan term in years"
+    },
+    "rateType": {
+      "type": "string",
+      "enum": ["fixed", "arm"],
+      "description": "Fixed or adjustable rate mortgage"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["pre_qualified", "applied", "processing", "approved", "closed", "denied"],
+      "description": "Current status of the loan application"
+    },
+    "closingDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Expected or actual closing date"
+    },
+    "monthlyPayment": {
+      "type": "number",
+      "format": "double",
+      "description": "Estimated monthly principal and interest payment in USD"
+    }
+  },
+  "required": ["loanId", "homeId", "loanType", "loanAmount", "status"]
+}

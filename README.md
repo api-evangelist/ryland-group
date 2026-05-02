@@ -22,6 +22,20 @@ No public APIs have been documented for The Ryland Group. The company merged wit
 
 ## Artifacts
 
+### JSON Schema
+
+- [Home](json-schema/ryland-home-schema.json)
+- [Mortgage](json-schema/ryland-mortgage-schema.json)
+
+### JSON Structure
+
+- [Home](json-structure/ryland-home-structure.json)
+
+### Examples
+
+- [Home Example](examples/ryland-home-example.json)
+- [Mortgage Example](examples/ryland-mortgage-example.json)
+
 ### JSON-LD Context
 
 - [Ryland Group Context](json-ld/ryland-group-context.jsonld)
@@ -33,6 +47,7 @@ No public APIs have been documented for The Ryland Group. The company merged wit
 ## Common Properties
 
 - [Website](https://www.ryland-group.com)
+- [About](https://en.wikipedia.org/wiki/Ryland_Group)
 
 ## Maintainers
 

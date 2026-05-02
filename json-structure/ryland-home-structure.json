@@ -1,0 +1,90 @@
+{
+  "name": "Ryland Home",
+  "description": "A residential home built and sold by The Ryland Group",
+  "fields": [
+    {
+      "name": "homeId",
+      "type": "string",
+      "required": true,
+      "description": "Unique home identifier"
+    },
+    {
+      "name": "planName",
+      "type": "string",
+      "required": true,
+      "description": "Home plan or model name"
+    },
+    {
+      "name": "community",
+      "type": "string",
+      "required": true,
+      "description": "Name of the planned community or subdivision"
+    },
+    {
+      "name": "state",
+      "type": "string",
+      "required": true,
+      "description": "US state where the home is located"
+    },
+    {
+      "name": "city",
+      "type": "string",
+      "required": false,
+      "description": "City where the home is located"
+    },
+    {
+      "name": "address",
+      "type": "string",
+      "required": false,
+      "description": "Street address"
+    },
+    {
+      "name": "status",
+      "type": "string",
+      "required": true,
+      "description": "Sales status: available, under_construction, sold, model"
+    },
+    {
+      "name": "price",
+      "type": "number",
+      "required": true,
+      "description": "Base price in USD"
+    },
+    {
+      "name": "squareFeet",
+      "type": "integer",
+      "required": false,
+      "description": "Total heated square footage"
+    },
+    {
+      "name": "bedrooms",
+      "type": "integer",
+      "required": false,
+      "description": "Number of bedrooms"
+    },
+    {
+      "name": "bathrooms",
+      "type": "number",
+      "required": false,
+      "description": "Number of bathrooms including half baths"
+    },
+    {
+      "name": "garage",
+      "type": "integer",
+      "required": false,
+      "description": "Number of garage car spaces"
+    },
+    {
+      "name": "stories",
+      "type": "integer",
+      "required": false,
+      "description": "Number of stories (1, 2, or 3)"
+    },
+    {
+      "name": "estimatedCompletionDate",
+      "type": "string (date)",
+      "required": false,
+      "description": "Estimated completion date for homes under construction"
+    }
+  ]
+}

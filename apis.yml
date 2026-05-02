@@ -24,12 +24,20 @@ apis: []
 common:
   - type: Website
     url: https://www.ryland-group.com
+  - type: About
+    url: https://en.wikipedia.org/wiki/Ryland_Group
   - type: Vocabulary
     url: >-
       https://raw.githubusercontent.com/api-evangelist/ryland-group/refs/heads/main/vocabulary/ryland-group-vocabulary.yml
   - type: JSONLDContext
     url: >-
       https://raw.githubusercontent.com/api-evangelist/ryland-group/refs/heads/main/json-ld/ryland-group-context.jsonld
+  - type: JSONSchema
+    url: >-
+      https://raw.githubusercontent.com/api-evangelist/ryland-group/refs/heads/main/json-schema/ryland-home-schema.json
+  - type: JSONSchema
+    url: >-
+      https://raw.githubusercontent.com/api-evangelist/ryland-group/refs/heads/main/json-schema/ryland-mortgage-schema.json
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com

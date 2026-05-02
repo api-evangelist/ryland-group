@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12",
+  "$id": "https://api-evangelist.github.io/ryland-group/json-schema/ryland-home-schema.json",
+  "title": "Ryland Home",
+  "description": "A residential home built and sold by The Ryland Group across its communities in 17 states",
+  "type": "object",
+  "properties": {
+    "homeId": {
+      "type": "string",
+      "description": "Unique home identifier"
+    },
+    "planName": {
+      "type": "string",
+      "description": "Home plan or model name"
+    },
+    "community": {
+      "type": "string",
+      "description": "Name of the planned community or subdivision"
+    },
+    "state": {
+      "type": "string",
+      "description": "US state where the home is located"
+    },
+    "city": {
+      "type": "string",
+      "description": "City where the home is located"
+    },
+    "address": {
+      "type": "string",
+      "description": "Street address of the home"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["available", "under_construction", "sold", "model"],
+      "description": "Current sales status of the home"
+    },
+    "price": {
+      "type": "number",
+      "format": "double",
+      "description": "Base price of the home in USD"
+    },
+    "squareFeet": {
+      "type": "integer",
+      "description": "Total heated square footage of the home"
+    },
+    "bedrooms": {
+      "type": "integer",
+      "description": "Number of bedrooms"
+    },
+    "bathrooms": {
+      "type": "number",
+      "description": "Number of bathrooms (can be half baths, e.g. 2.5)"
+    },
+    "garage": {
+      "type": "integer",
+      "description": "Number of garage car spaces"
+    },
+    "stories": {
+      "type": "integer",
+      "enum": [1, 2, 3],
+      "description": "Number of stories"
+    },
+    "estimatedCompletionDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Estimated completion date for homes under construction"
+    }
+  },
+  "required": ["homeId", "planName", "community", "state", "status", "price"]
+}

@@ -1,0 +1,13 @@
+{
+  "loanId": "RMC-2015-045821",
+  "homeId": "RYL-TX-STONE-00142",
+  "loanType": "conventional",
+  "loanAmount": 311992.00,
+  "downPayment": 77998.00,
+  "interestRate": 3.75,
+  "loanTermYears": 30,
+  "rateType": "fixed",
+  "status": "approved",
+  "closingDate": "2015-06-30",
+  "monthlyPayment": 1445.82
+}

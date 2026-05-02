@@ -1,0 +1,16 @@
+{
+  "homeId": "RYL-TX-STONE-00142",
+  "planName": "The Alderman",
+  "community": "Stonebridge Ranch",
+  "state": "TX",
+  "city": "McKinney",
+  "address": "4521 Pebble Creek Drive",
+  "status": "available",
+  "price": 389990.00,
+  "squareFeet": 2845,
+  "bedrooms": 4,
+  "bathrooms": 3.0,
+  "garage": 2,
+  "stories": 2,
+  "estimatedCompletionDate": "2015-06-30"
+}
