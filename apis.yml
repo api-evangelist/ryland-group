@@ -22,6 +22,11 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ryland-group.png
 tags:
+  - Financial-Services
+  - Homebuilder
+  - Mortgage
+  - Real-Estate
+tags_raw:
   - Financial Services
   - Homebuilder
   - Mortgage
