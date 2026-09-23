@@ -1,7 +1,9 @@
 ---
 title: Ryland Group 'BBB-' Credit Rating Affirmed; Outlook Is Stable
 url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/554035
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Ryland Group" press release artificial intelligence'
 position: 4
 source: serpapi-google

@@ -1,7 +1,9 @@
 ---
 title: Ryland Group Inc.
 url: https://www.nytimes.com/topic/company/ryland-group-inc
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Ryland Group" press release artificial intelligence'
 position: 3
 source: serpapi-google

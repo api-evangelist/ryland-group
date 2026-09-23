@@ -1,7 +1,9 @@
 ---
 title: Standard Pacific, Ryland Group to create 4th largest U.S. ...
 url: https://www.constructiondive.com/news/standard-pacific-ryland-group-to-create-4th-largest-us-homebuilder-with/400754/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Ryland Group" press release artificial intelligence'
 position: 1
 source: serpapi-google
